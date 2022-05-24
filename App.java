@@ -21,12 +21,15 @@ class App {
     questions.append(eachDay + "; " + "\r\n");
     questions.append(rentalDays);
     questions.append(" rental days - " + "\r\n");
-    questions.append("Toll Tag: $" + tollTag);
-    questions.append(eachDay + "; " + "\r\n");
+    questions.append("Total cost of basic car rental: " + carRental * rentalDays + "\r\n");
+    questions.append("Toll Tag: $" + tollTag + " daily ;" + "\r\n");
+    questions.append("Total Toll Tag Charge: not selected ;" + "\r\n");
     questions.append("GPS Services: $" + gps);
     questions.append(eachDay + "; " + "\r\n");
+    questions.append("Total GPS Services Charge: " + gps * rentalDays + ";" + "\r\n");
     questions.append("Roadside Assistance: $" + roadsideAss);
     questions.append(eachDay + "; " + "\r\n");
+    questions.append("Total Roadside Assistance Charge: " + roadsideAss * rentalDays + ";" + "\r\n");
     questions.append("Current Age: " + currentAge + "; " + "\r\n");
     questions.append("Underage Driver Surcharge: $" + surchargeFee + "; " + "\r\n");
     questions.append("Total Cost of Rental: $");
