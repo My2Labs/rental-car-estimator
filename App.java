@@ -17,7 +17,7 @@ class App {
 
     StringBuilder questions = new StringBuilder();
     questions.append(pickupDate + "; " + "\r\n");
-    questions.append("$" + carRental);
+    questions.append("Basic car rental price: $" + carRental);
     questions.append(eachDay + "; " + "\r\n");
     questions.append(rentalDays);
     questions.append(" rental days - " + "\r\n");
