@@ -17,18 +17,18 @@ class App {
 
     StringBuilder questions = new StringBuilder();
     questions.append(pickupDate + " ; " + "\r\n");
-    questions.append(carRental);
+    questions.append("$" + carRental);
     questions.append(eachDay + " ; " + "\r\n");
     questions.append(rentalDays);
     questions.append(" rental days - " + "\r\n");
-    questions.append("Toll Tag: " + tollTag);
+    questions.append("Toll Tag: $" + tollTag);
     questions.append(eachDay + " ; " + "\r\n");
-    questions.append("GPS Services: " + gps);
+    questions.append("GPS Services: $" + gps);
     questions.append(eachDay + " ; " + "\r\n");
-    questions.append("Roadside Assistance: " + roadsideAss);
+    questions.append("Roadside Assistance: $" + roadsideAss);
     questions.append(eachDay + " ; " + "\r\n");
     questions.append("Current Age: " + currentAge + " ; " + "\r\n");
-    questions.append("Underage Driver Surcharge: " + surchargeFee + " ; " + "\r\n");
+    questions.append("Underage Driver Surcharge: $" + surchargeFee + " ; " + "\r\n");
     questions.append("Total Cost of Rental: $");
     questions.append(String.format("%.2f", total));
 
