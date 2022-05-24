@@ -29,7 +29,7 @@ class App {
     questions.append(eachDay + " ; " + "\r\n");
     questions.append("Current Age: " + currentAge + " ; " + "\r\n");
     questions.append("Underage Driver Surcharge: " + surchargeFee + " ; " + "\r\n");
-    questions.append("Total Cost of Rental: ");
+    questions.append("Total Cost of Rental: $");
     questions.append(String.format("%.2f", total));
 
     System.out.println(questions);
